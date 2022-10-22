@@ -2,7 +2,7 @@
 
 const weather = document.querySelector("#weather span:first-child");
 const city = document.querySelector("#weather span:last-child");
-const API_KEY = "241051bf13976dd3ddf8b8d9f247255e";
+const API_KEY = "86c2c5a4b2d6f19dd3ac0c27bd8f7307";
 
 function onGeoOk(position) {
   const lat = position.coords.latitude;
